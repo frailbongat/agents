@@ -14,7 +14,9 @@ user appears in the issue's assignees.
 
 Treat an approved spec or an implementation-ready ticket with clear acceptance criteria as an
 approved design. Ask one clarifying question only when a material ambiguity blocks safe execution.
-If the work still needs product or architectural decisions, use /brainstorming before implementation.
+If the work still needs product or architectural decisions, stop and resolve them first: use the
+`grilling` skill to pressure-test a specific open decision, or `wayfinder` when the work is too big
+to hold in one session and the route is still unclear.
 
 ## Acceptance Map
 
