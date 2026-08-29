@@ -4,5 +4,7 @@
 *.bak
 *.orig
 *~
+skills-archive/
+skills-backup-*.tar.gz
 
 node_modules/
