@@ -1,0 +1,8 @@
+.DS_Store
+
+# Superseded by git history - keep them out so they stop accumulating.
+*.bak
+*.orig
+*~
+
+node_modules/
