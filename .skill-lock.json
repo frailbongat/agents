@@ -301,24 +301,6 @@
       "installedAt": "2026-08-01T01:38:34.780Z",
       "updatedAt": "2026-08-07T11:11:49.996Z"
     },
-    "svelte-code-writer": {
-      "source": "sveltejs/ai-tools",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/sveltejs/ai-tools.git",
-      "skillPath": "plugins/claude/svelte/skills/svelte-code-writer/SKILL.md",
-      "skillFolderHash": "177e9694aa97200de84999b8ab46b7b8db43c5cb",
-      "installedAt": "2026-08-01T17:12:04.769Z",
-      "updatedAt": "2026-08-01T17:12:04.769Z"
-    },
-    "svelte-core-bestpractices": {
-      "source": "sveltejs/ai-tools",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/sveltejs/ai-tools.git",
-      "skillPath": "plugins/claude/svelte/skills/svelte-core-bestpractices/SKILL.md",
-      "skillFolderHash": "f4e209ec609db21f44f8e63b6b9cd622fdf4dcd4",
-      "installedAt": "2026-08-01T17:12:04.771Z",
-      "updatedAt": "2026-08-01T17:12:04.771Z"
-    },
     "wait-what": {
       "source": "mattpocock/skills",
       "sourceType": "github",
