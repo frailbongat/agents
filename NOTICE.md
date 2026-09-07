@@ -8,7 +8,6 @@ They keep their original licenses and copyright. Only the items listed under
 
 | Path | Author | License |
 | --- | --- | --- |
-| `skills/unslop/` | Frail Bongat | MIT (root `LICENSE`) |
 | `skills/impeccable-to-tickets/` | Frail Bongat | MIT (root `LICENSE`) |
 | `skills/impeccable-implement/` | Frail Bongat | MIT (root `LICENSE`) |
 | `.gitignore`, `.skill-lock.json`, `README.md`, `NOTICE.md` | Frail Bongat | MIT (root `LICENSE`) |
@@ -51,6 +50,20 @@ Covers `skills/frontend-design/`. Unmodified.
 - License: **none declared upstream**
 
 Covers `skills/web-design-guidelines/`. Unmodified.
+
+### pstack (cursor/plugins)
+
+- Source: https://github.com/cursor/plugins/tree/main/pstack
+- Mirror: https://github.com/backnotprop/pstack
+- License: MIT, Copyright (c) 2026 Lauren Tan
+- Full text: [`licenses/pstack-MIT.txt`](licenses/pstack-MIT.txt)
+
+Covers `skills/unslop/`.
+
+Modified from upstream: the frontmatter drops `disable-model-invocation: true`,
+so the skill is model-invoked and applies to every task without being called.
+That is the only change; the body is byte-identical to
+`pstack/skills/unslop/SKILL.md` upstream.
 
 ### Leonxlnx/taste-skill
 
