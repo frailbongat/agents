@@ -9,6 +9,7 @@ They keep their original licenses and copyright. Only the items listed under
 | Path | Author | License |
 | --- | --- | --- |
 | `skills/unslop/` | Frail Bongat | MIT (root `LICENSE`) |
+| `skills/impeccable-to-tickets/` | Frail Bongat | MIT (root `LICENSE`) |
 | `.gitignore`, `.skill-lock.json`, `README.md`, `NOTICE.md` | Frail Bongat | MIT (root `LICENSE`) |
 
 ## Redistributed work
@@ -22,14 +23,15 @@ They keep their original licenses and copyright. Only the items listed under
 Covers these directories under `skills/`:
 
 `ask-matt`, `code-review`, `codebase-design`, `diagnosing-bugs`,
-`domain-modeling`, `grilling`, `handoff`, `implement`,
+`domain-modeling`, `grill-with-docs`, `grilling`, `handoff`, `implement`,
 `improve-codebase-architecture`, `prototype`, `research`,
 `resolving-merge-conflicts`, `setup-ts-deep-modules`, `tdd`, `teach`,
 `to-questionnaire`, `to-spec`, `to-tickets`, `triage`, `wait-what`,
 `wayfinder`, `wizard`, `writing-for-agents`
 
-Modified from upstream: `skills/implement/SKILL.md` (removed a reference to a
-skill that no longer exists here).
+Modified from upstream: `skills/implement/SKILL.md` is a local rewrite. It keeps
+the upstream name but replaces the body with a custom acceptance-map and
+freeze-gate workflow, and it is held back from upstream updates.
 
 ### anthropics/skills
 

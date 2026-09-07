@@ -1,0 +1,5 @@
+interface:
+  display_name: "Impeccable Implement"
+  short_description: "Implement an Impeccable ticket from its issue URL"
+policy:
+  allow_implicit_invocation: false

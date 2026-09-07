@@ -1,0 +1,5 @@
+interface:
+  display_name: "Impeccable To Tickets"
+  short_description: "Turn an Impeccable audit or critique into a spec issue and sub-issues"
+policy:
+  allow_implicit_invocation: false

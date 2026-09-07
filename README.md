@@ -12,7 +12,7 @@ Read [NOTICE.md](NOTICE.md) before reusing anything. Short version:
 
 | Origin | License |
 | --- | --- |
-| 23 skills from [mattpocock/skills](https://github.com/mattpocock/skills) | MIT |
+| 24 skills from [mattpocock/skills](https://github.com/mattpocock/skills) | MIT |
 | `frontend-design` from [anthropics/skills](https://github.com/anthropics/skills) | Apache 2.0 |
 | `web-design-guidelines` from [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | None declared upstream |
 | `unslop` | Mine, MIT |
