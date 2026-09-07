@@ -1,15 +1,6 @@
 {
   "version": 3,
   "skills": {
-    "commit-work": {
-      "source": "softaworks/agent-toolkit",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/softaworks/agent-toolkit.git",
-      "skillPath": "skills/commit-work/SKILL.md",
-      "skillFolderHash": "ac7c2ea0f24eb668f5b80e4f237efa4a90f12312",
-      "installedAt": "2026-02-02T08:48:25.656Z",
-      "updatedAt": "2026-02-02T08:48:25.656Z"
-    },
     "web-design-guidelines": {
       "source": "vercel-labs/agent-skills",
       "sourceType": "github",
@@ -28,34 +19,6 @@
       "pluginName": "example-skills",
       "installedAt": "2026-03-06T06:03:16.749Z",
       "updatedAt": "2026-08-10T04:13:04.783Z"
-    },
-    "product-name": {
-      "source": "phuryn/pm-skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/phuryn/pm-skills.git",
-      "skillPath": "pm-marketing-growth/skills/product-name/SKILL.md",
-      "skillFolderHash": "8256ccfd21f516f21457391d52c9d4177f90741b",
-      "installedAt": "2026-04-02T09:27:48.496Z",
-      "updatedAt": "2026-04-02T09:27:48.496Z"
-    },
-    "naming": {
-      "source": "glacierphonk/naming",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/glacierphonk/naming.git",
-      "skillPath": "SKILL.md",
-      "skillFolderHash": "e7af8a5d014a330ead84421274178e36e72ecd5f",
-      "installedAt": "2026-07-10T01:21:47.484Z",
-      "updatedAt": "2026-07-10T01:21:47.484Z"
-    },
-    "brand-naming": {
-      "source": "arnabbagxd/brand-building-skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/arnabbagxd/brand-building-skills.git",
-      "skillPath": "skills/brand-naming/SKILL.md",
-      "skillFolderHash": "48e04043dfa1d000d9b220aae2dd7581c17a0f8e",
-      "pluginName": "brand-building-skills",
-      "installedAt": "2026-07-10T01:26:21.503Z",
-      "updatedAt": "2026-07-10T01:26:21.503Z"
     },
     "ask-matt": {
       "source": "mattpocock/skills",
@@ -102,16 +65,6 @@
       "pluginName": "mattpocock-skills",
       "installedAt": "2026-08-01T01:38:34.763Z",
       "updatedAt": "2026-08-01T13:41:47.395Z"
-    },
-    "grill-me": {
-      "source": "mattpocock/skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/mattpocock/skills.git",
-      "skillPath": "skills/productivity/grill-me/SKILL.md",
-      "skillFolderHash": "c817f6f36acd483294144694a935a76d3e3eb101",
-      "pluginName": "mattpocock-skills",
-      "installedAt": "2026-08-01T01:38:34.764Z",
-      "updatedAt": "2026-08-01T13:41:47.396Z"
     },
     "grill-with-docs": {
       "source": "mattpocock/skills",
@@ -190,15 +143,6 @@
       "installedAt": "2026-08-01T01:38:34.769Z",
       "updatedAt": "2026-08-01T13:41:47.403Z"
     },
-    "setup-matt-pocock-skills": {
-      "source": "mattpocock/skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/mattpocock/skills.git",
-      "skillPath": "skills/engineering/setup-matt-pocock-skills/SKILL.md",
-      "skillFolderHash": "abf20c04a4aa8a37ff20aa7286f28857150f8b8d",
-      "installedAt": "2026-08-01T01:38:34.769Z",
-      "updatedAt": "2026-08-06T12:13:48.381Z"
-    },
     "tdd": {
       "source": "mattpocock/skills",
       "sourceType": "github",
@@ -255,24 +199,6 @@
       "installedAt": "2026-08-01T01:38:34.772Z",
       "updatedAt": "2026-08-06T12:13:57.279Z"
     },
-    "claude-handoff": {
-      "source": "mattpocock/skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/mattpocock/skills.git",
-      "skillPath": "skills/in-progress/claude-handoff/SKILL.md",
-      "skillFolderHash": "b312afac556f7229717dbd9b786d77bc160c8649",
-      "installedAt": "2026-08-01T01:38:34.773Z",
-      "updatedAt": "2026-08-06T12:13:59.290Z"
-    },
-    "setup-pre-commit": {
-      "source": "mattpocock/skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/mattpocock/skills.git",
-      "skillPath": "skills/misc/setup-pre-commit/SKILL.md",
-      "skillFolderHash": "dcc584ff84c4f040ea12742fcb46b7c3ad7070bd",
-      "installedAt": "2026-08-01T01:38:34.778Z",
-      "updatedAt": "2026-08-01T13:41:47.411Z"
-    },
     "setup-ts-deep-modules": {
       "source": "mattpocock/skills",
       "sourceType": "github",
@@ -320,24 +246,6 @@
       "pluginName": "mattpocock-skills",
       "installedAt": "2026-08-07T11:22:26.718Z",
       "updatedAt": "2026-08-07T11:22:26.718Z"
-    },
-    "vercel-react-best-practices": {
-      "source": "vercel-labs/agent-skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
-      "skillPath": "skills/react-best-practices/SKILL.md",
-      "skillFolderHash": "343db72180d05814949fef7d46be96b5c6ee86b3",
-      "installedAt": "2026-08-15T16:12:07.254Z",
-      "updatedAt": "2026-08-15T16:12:07.254Z"
-    },
-    "threejs-r3f": {
-      "source": "athevon/genjutsu",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/athevon/genjutsu.git",
-      "skillPath": "skills/_jutsu/threejs-r3f/SKILL.md",
-      "skillFolderHash": "5a6fb1923bbf95a0f7e41c2f02e628018da6a3d4",
-      "installedAt": "2026-08-15T16:13:57.582Z",
-      "updatedAt": "2026-08-15T16:13:57.582Z"
     },
     "brandkit": {
       "source": "Leonxlnx/taste-skill",

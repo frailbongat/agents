@@ -40,11 +40,11 @@ This is analysis only. Do NOT edit, create, or delete any files. Do NOT write co
 
 ## Forwarded skills
 
-If `$ARGUMENTS` contains another skill reference — `/unslop`, `/unslop-risk`, `$unslop`, etc. — the user is asking the advisor to run that skill against the current task. Examples:
+If `$ARGUMENTS` contains another skill reference — `/unslop`, `/web-design-guidelines`, `$unslop`, etc. — the user is asking the advisor to run that skill against the current task. Examples:
 
 - `/paseo-advisor /unslop` → advisor runs `/unslop` on the current diff.
 - `/paseo-advisor /unslop-risk` → advisor does an unslop-risk review.
-- `/paseo-advisor $diagnose this build failure` → advisor invokes `/diagnose`.
+- `/paseo-advisor $diagnosing-bugs this build failure` → advisor invokes `/diagnosing-bugs`.
 
 Parse the forwarded skill name out of `$ARGUMENTS` (`/<name>` or `$<name>`). In the briefing, tell the advisor explicitly:
 
