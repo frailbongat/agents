@@ -1,10 +1,10 @@
 ---
-name: prompt
-description: Turn a rough request into a ready-to-paste prompt that names the exact skill and sub-command for the job. Use when the user types /skill:prompt with a task description, asks which skill or command fits, or wants a prompt written for them. Router over every installed skill.
+name: route
+description: Turn a rough request into a ready-to-paste prompt that names the exact skill and sub-command for the job. Use when the user types /skill:route with a task description, asks which skill or command fits, or wants a prompt written for them. Router over every installed skill.
 disable-model-invocation: true
 ---
 
-# Prompt
+# Route
 
 Input: one rough sentence about what the user wants to do.
 
