@@ -82,7 +82,23 @@ Idea to shipped feature, in order. Do not skip ahead when the earlier step is mi
 4. `implement` builds one ticket; it drives `tdd` inside and closes with `code-review`.
 5. `tdd` alone for one concrete behaviour, `code-review` alone to review a diff since a fixed point.
 
-On-ramps: `triage` for incoming bugs and requests the user did not write, `wayfinder` for a foggy greenfield effort too big for one session.
+On-ramps: `triage` for incoming bugs and requests the user did not write, `wayfinder` for a foggy effort too big for one session.
+
+## Wayfinder tickets beat the build flow
+
+A ticket that belongs to a wayfinder map goes to `wayfinder`, never to `implement`, no matter how much its title reads like a build.
+
+Tells, any one is enough:
+
+- the issue carries a `wayfinder:research`, `wayfinder:prototype`, `wayfinder:grilling`, or `wayfinder:task` label;
+- its parent issue carries `wayfinder:map`;
+- the user says the ticket came from a map, or names the map.
+
+These tickets hold a question to decide, not code to write. Resolving one means posting a resolution comment, closing the issue, appending a line to the map's `Decisions so far`, and graduating fog into new tickets. `implement` does none of that, so sending it there both writes code against an undecided design and leaves the map stale for the next session.
+
+Emit `/skill:wayfinder <map-url> <ticket-url>`. When the user gave the ticket but not the map, name the ticket alone and let the skill load its parent.
+
+The reverse also costs: `wayfinder` on an ordinary build ticket writes no code and hunts for a `wayfinder:map` issue that does not exist.
 
 Upkeep: `improve-codebase-architecture` to find deepening opportunities, `codebase-design` for the module vocabulary, `setup-ts-deep-modules` once per TypeScript repo, `resolving-merge-conflicts` mid-conflict, `domain-modeling` for CONTEXT.md and ADRs.
 
